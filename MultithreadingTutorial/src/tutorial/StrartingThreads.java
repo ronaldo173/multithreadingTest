@@ -21,7 +21,7 @@ class Runner extends Thread {// 1 way
 		// TODO Auto-generated method stub
 		for (int i = 0; i < 10; i++) {
 			StrartingThreads.value++;
-			System.out.println("From thead.." + i + " value: " + StrartingThreads.value );
+			System.out.println("From thead.." + i + " value: " + StrartingThreads.value);
 			try {
 				Thread.sleep(300);
 			} catch (InterruptedException e) {
@@ -40,12 +40,12 @@ class RunnerImplement implements Runnable {
 		for (int i = 10; i > 0; i--) {
 			StrartingThreads.value++;
 			System.out.println("Thread..Implement Runnable..." + i + " value.." + StrartingThreads.value);
-//			try {
-//				Thread.sleep(150);
-//			} catch (InterruptedException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
+			// try {
+			// Thread.sleep(150);
+			// } catch (InterruptedException e) {
+			// // TODO Auto-generated catch block
+			// e.printStackTrace();
+			// }
 		}
 	}
 
