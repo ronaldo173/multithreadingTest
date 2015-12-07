@@ -1,4 +1,4 @@
-package LockObjects_4;
+package LockObjects_5;
 
 public class App {
 	public static void main(String[] args) {
