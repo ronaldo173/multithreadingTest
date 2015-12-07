@@ -12,7 +12,7 @@ public class App {
 
 		System.out.println("Started....");
 		Thread t1 = new Thread(new Runnable() {
-			
+
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
@@ -24,9 +24,9 @@ public class App {
 				}
 			}
 		});
-		
+
 		Thread t2 = new Thread(new Runnable() {
-			
+
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
@@ -38,7 +38,7 @@ public class App {
 				}
 			}
 		});
-		
+
 		t1.start();
 		t2.start();
 		t1.join();
@@ -58,32 +58,12 @@ public class App {
 		while (true) {
 			Thread.sleep(100);
 
-			if (random.nextInt(10) == 0 ) {
+			if (random.nextInt(10) == 0) {
 				Integer value = queue.take();
 				System.out.println("Taken value: " + value + "; Queue size is: " + queue.size());
 
 			}
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

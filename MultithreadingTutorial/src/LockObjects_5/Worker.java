@@ -82,7 +82,7 @@ public class Worker {
 
 		long end = System.currentTimeMillis();
 		System.out.println("Закончили.....");
-		System.out.println("Time of work: " + (end - start)  + "msecs");
+		System.out.println("Time of work: " + (end - start) + "msecs");
 		System.out.println("list1: " + list.size() + " ..list2: " + list2.size());
 
 	}
