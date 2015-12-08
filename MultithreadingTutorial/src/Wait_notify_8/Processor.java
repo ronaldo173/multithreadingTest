@@ -1,4 +1,4 @@
-package wait_notify_8;
+package Wait_notify_8;
 
 import java.util.Scanner;
 
