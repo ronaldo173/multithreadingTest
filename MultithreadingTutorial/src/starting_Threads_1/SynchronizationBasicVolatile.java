@@ -1,4 +1,4 @@
-package tutorial;
+package starting_Threads_1;
 
 import java.util.Scanner;
 

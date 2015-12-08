@@ -1,4 +1,4 @@
-package Re_entrant_lock;
+package re_entrant_lock_10;
 
 import java.util.Scanner;
 import java.util.concurrent.locks.Condition;

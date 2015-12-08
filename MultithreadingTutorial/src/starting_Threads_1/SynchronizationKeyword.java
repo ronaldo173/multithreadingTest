@@ -1,4 +1,4 @@
-package tutorial;
+package starting_Threads_1;
 
 public class SynchronizationKeyword {
 	private int count = 0;

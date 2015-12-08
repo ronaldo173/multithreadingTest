@@ -1,4 +1,4 @@
-package Thread_Pools_6;
+package thread_Pools_6;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

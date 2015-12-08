@@ -1,4 +1,4 @@
-package Re_entrant_lock;
+package re_entrant_lock_10;
 
 public class App {
 	public static void main(String[] args) {

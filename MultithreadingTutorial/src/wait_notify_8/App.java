@@ -1,4 +1,4 @@
-package Wait_notify;
+package wait_notify_8;
 
 public class App {
 	public static void main(String[] args) throws InterruptedException {

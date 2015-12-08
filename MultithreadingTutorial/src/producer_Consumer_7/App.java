@@ -1,4 +1,4 @@
-package Producer_Consumer_7;
+package producer_Consumer_7;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
